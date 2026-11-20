@@ -1,6 +1,6 @@
 # Dynamic Datasource for Spring Boot Starter
-# Copyright (c) 2020 Unikue Ltd. All rights reserved.
-# https://unikue.cn
+# Copyright (c) 2020 Jiovan Ltd. All rights reserved.
+# https://jiovan.com
 
 
 spring:
@@ -8,12 +8,13 @@ spring:
         exclude:
             - org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration
             - org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration
-            - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
-            - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+            - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration
+            - org.springframework.boot.jdbc.autoconfigure.DataSourceTransactionManagerAutoConfiguration
             - org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration
-            - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+            - org.springframework.boot.hibernate.autoconfigure.HibernateJpaAutoConfiguration
             - org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration
-            - cn.unikue.springstarter.mybatisdelegator.config.MybatisDelegatorAutoConfiguration
+            - com.jiovan.spring.starter.mybatisdelegator.config.MybatisDelegatorAutoConfiguration
+jiovan:
     dynamic-datasource:
         datasource-route:
             testdb1:
