@@ -31,6 +31,7 @@ import java.lang.annotation.Target;
  * Using with annotation {@code @Transactional} together
  *
  * @author David Hsing
+ *
  * @see org.springframework.transaction.annotation.Transactional
  */
 @Target(value = ElementType.METHOD)

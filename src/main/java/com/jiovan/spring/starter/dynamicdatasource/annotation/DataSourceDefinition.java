@@ -31,6 +31,7 @@ import java.lang.annotation.Target;
  * The method with this should return a {@code @DataSource} bean
  *
  * @author David Hsing
+ *
  * @see javax.sql.DataSource
  * @see "jakarta.annotation.sql.DataSourceDefinition"
  */
